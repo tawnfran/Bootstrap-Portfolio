@@ -5,54 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap</title>
- 
+    <title>Basic Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    </link>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
-
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tawny Francis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navBar-right">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <div class="navBar-right">
+                            <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a
+                                href="contact.html">Contact</a>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+    </nav>
     <header>
-        <div class="my-name">
-            <h1>Tawny Francis</h1>
-        
+        <img id="profilePic" src="assets/images/beach pic.jpg" atl="Picture of the Beach"
+            style="width:200px;height:200px;">
+        <div class="nameDiv">
+            <div class="my-name">
+
+
+
+            </div>
         </div>
     </header>
 
@@ -60,13 +51,25 @@
 
     <div class="container">
         <div class=innerContainer>
-            <h2 id="containerTitle">
-                About Me
-                <br></br>
-            </h2>
-            <hr class="innercontactline">
 
-            <img src="http://lorempixel.com/200/200" alt="Tawny Francis" id="bio-image">
+
+            </h1>
+            <hr class="infoLine">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                    <div class="col-sm">
+                        One of three columns
+                    </div>
+                </div>
+            </div>
 
             <div id="aboutmecontent">
                 <p>
@@ -88,7 +91,8 @@
             </div>
         </div>
     </div>
-    <footer><hr>
+    <footer>
+        <hr>
         <div class="footerText">
             Copyright
         </div>
@@ -96,4 +100,4 @@
 </body>
 
 
-</html> -->
+</html>
